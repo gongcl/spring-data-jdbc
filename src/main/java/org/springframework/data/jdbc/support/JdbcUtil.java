@@ -40,8 +40,7 @@ public class JdbcUtil {
 	private static final Map<Class<?>, Integer> sqlTypeMappings = new HashMap<>();
 
 	static {
-asdf
-		sqlTypeMappings.put(String.class, Types.VARCHAR);
+sqlTypeMappings.put(String.class, Types.VARCHAR);
 		sqlTypeMappings.put(BigInteger.class, Types.BIGINT);
 		sqlTypeMappings.put(BigDecimal.class, Types.NUMERIC);
 		sqlTypeMappings.put(Byte.class, Types.TINYINT);
